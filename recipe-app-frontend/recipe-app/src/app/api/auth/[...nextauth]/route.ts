@@ -14,6 +14,24 @@ const handler = NextAuth({
         signIn: '/',
         signOut: '/'
     },
+    callbacks: {
+        async jwt({ token, user }) {
+            if (user) {
+                token.id = user.id;
+                token.email = user.email;
+                token.name = user.name;
+            }
+            return token;
+        },
+        async session({ session, token }) {
+            if (session.user) {
+                session.user.id = token.id as string;
+                session.user.email = token.email as string;
+                session.user.name = token.name as string;
+            }
+            return session;
+        }
+    },
     providers: [
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID!,
@@ -50,21 +68,8 @@ const handler = NextAuth({
 
             }
         })
-    ],
-    callbacks: {
-        async session({ session, token }) {
-            session.user.id = token.sub;
-            return session;
-        },
-        async jwt({ token, account, user }) {
-            if (account) {
-                token.accessToken = account.access_token;
-                token.id = user.id;
-                // console.log({ user });
-            }
-            return token;
-        },
-    },
-})
+    ]
+});
+
 export { handler as GET, handler as POST };
 

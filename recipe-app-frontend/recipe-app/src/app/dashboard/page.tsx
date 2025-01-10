@@ -7,7 +7,6 @@ import { Nav } from "@/app/dashboard/components/nav/Nav";
 import { UserNav } from "@/app/dashboard/components/nav/ProfileAvatar";
 import { Suspense } from 'react';
 import type {Metadata} from "next";
-
 export const metadata: Metadata = {
     title: "Dashboard",
     description: "Dashboard for the recipe app.",

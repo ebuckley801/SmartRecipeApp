@@ -1,2 +1,31 @@
-ingredient,missing_amount,unit
-sugar,200,grams
+ingredient, missing_amount, unit
+chicken, 400.0, grams
+pasta, 100.0, grams
+cheese, 800.0, grams
+tortilla, 400, grams
+rice, 250.0, grams
+beans, 300, grams
+avocado, 50.0, grams
+beef, 750, grams
+mixed_vegetables, 200, grams
+protein_powder, 340, grams
+oats, 650.0, grams
+banana, 750, grams
+peanut_butter, 150, grams
+whole_milk, 500, grams
+honey, 150, grams
+sweet_potato, 400, grams
+ground_beef, 300, grams
+sour_cream, 100, grams
+bacon, 100, grams
+maple_syrup, 80, grams
+tortillas, 200, grams
+mayo, 50, grams
+vegetables, 500, grams
+butter, 30, grams
+teriyaki, 100, grams
+dried_fruits, 100, grams
+pizza_dough, 300, grams
+olive_oil, 130, grams
+cream, 100, grams
+black_beans, 150, grams

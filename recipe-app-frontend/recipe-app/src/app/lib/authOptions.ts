@@ -36,14 +36,14 @@ export const authOptions: NextAuthOptions = {
 
         const passwordCorrect = await compare(
           credentials?.password || "",
-          user.password,
+          user.password
         );
 
         if (passwordCorrect) {
           return {
             id: user.id + "",
             email: user.email,
-            name: user.firstName + " " + user.lastName,
+            name: `${user.firstName} ${user.lastName}`,
           };
         }
         return null;
@@ -52,11 +52,11 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async session({ session, token }) {
-      session.user.id = token.sub;
+      session.user.id = token.id;
       return session;
     },
     async jwt({ token, account, user }) {
-      if (account) {
+      if (account && user) {
         token.accessToken = account.access_token;
         token.id = user.id;
         console.log({ user });

@@ -39,14 +39,15 @@ export default function SignIn() {
     const response = await signIn("credentials", {
       email,
       password,
-      redirect: false,
+      redirect: false
     });
-
+    console.log(response);
     setLoading(false);
 
-    if (!response?.error) {
+    if (response?.ok) {
       router.push("/dashboard");
       router.refresh();
+      console.log("Redirected to dashboard");
     } else {
       toast.error("Incorrect Username or Password");
     }
@@ -110,7 +111,7 @@ export default function SignIn() {
                 {loading ? (
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                 ) : (
-                  "Sign in"
+                  "Sign In"
                 )}
               </button>
             </div>

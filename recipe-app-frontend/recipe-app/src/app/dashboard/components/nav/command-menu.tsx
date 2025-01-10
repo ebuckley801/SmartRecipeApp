@@ -97,63 +97,14 @@ export function CommandMenu(props: React.JSX.IntrinsicAttributes & ButtonProps &
                 <CommandInput placeholder="Type a command or search..." />
                 <CommandList>
                     <CommandEmpty>No results found.</CommandEmpty>
-                    <CommandGroup heading="Suggestions">
-                        <CommandItem>
-                            <PlusSmallIcon className="mr-2 h-4 w-4" />
-                            <span>Add New Widget</span>
-                        </CommandItem>
-                        <CommandItem>
-                            <LineChartIcon className="mr-2 h-4 w-4" />
-                            <span>Trade</span>
-                        </CommandItem>
-                        <CommandItem>
-                            <CoinsIcon className="mr-2 h-4 w-4" />
-                            <span>View Crypto</span>
-                        </CommandItem>
-                    </CommandGroup>
-
-                    <CommandSeparator />
-
-                    <CommandGroup heading="Pages">
-                        <Link href={'/dashboard'}>
-                            
-                            <CommandItem>
-                                <User className="mr-2 h-4 w-4" />
-                                <span>Overview</span>
-                                <CommandShortcut>⌘O</CommandShortcut>
-                            </CommandItem>
-                        </Link>
-                        <Link href={'/dashboard/budgeting'}>
-                            <CommandItem>
-                                <Calculator className="mr-2 h-4 w-4" />
-                                <span>Budgeting</span>
-                                <CommandShortcut>⌘B</CommandShortcut>
-                            </CommandItem>
-                        </Link>
-                        <Link href={'/dashboard/investments'}>
-                            <CommandItem>
-                                <LineChartIcon className="mr-2 h-4 w-4" />
-                                <span>Investments</span>
-                                <CommandShortcut>⌘S</CommandShortcut>
-                            </CommandItem>
-                        </Link>
-                        <Link href={'/dashboard/crypto'}>
-                            <CommandItem>
-                                <CoinsIcon className="mr-2 h-4 w-4" />
-                                <span>Crypto</span>
-                                <CommandShortcut>⌘H</CommandShortcut>
-                            </CommandItem>
-                        </Link>
-
-                    </CommandGroup>
-
-                    <CommandSeparator />
                     <CommandGroup heading="AI Assistant">
+                        <Link href={'/dashboard/recipe-assistant'}>
                         <CommandItem>
                             <MessageCircle className="mr-2 h-4 w-4" />
                             <span>Chat with AI</span>
                             <CommandShortcut>⌘C</CommandShortcut>
                         </CommandItem>
+                        </Link>
                     </CommandGroup>
 
 

@@ -1,28 +1,28 @@
 Monday:
-  Breakfast: {'name': 'Vegan Black Bean Brownies', 'diet': 'vegan', 'ingredients': {'black_beans': 200, 'cocoa': 50, 'maple_syrup': 100, 'oat_flour': 100, 'walnuts': 50}, 'calories': 840, 'protein_g': 24.0, 'carbs_g': 130.0, 'fat_g': 36.0}
-  Lunch: {'name': 'Vegan Cauliflower Buffalo Wings', 'diet': 'vegan', 'ingredients': {'cauliflower': 300, 'flour': 100, 'plant_milk': 100, 'hot_sauce': 50, 'garlic': 15}, 'calories': 380, 'protein_g': 12.0, 'carbs_g': 55.0, 'fat_g': 15.0}
-  Dinner: {'name': "Vegan Lentil Shepherd's Pie", 'diet': 'vegan', 'ingredients': {'lentils': 250, 'potatoes': 300, 'carrots': 100, 'peas': 100, 'onions': 50, 'plant_milk': 100}, 'calories': 480, 'protein_g': 20.0, 'carbs_g': 75.0, 'fat_g': 10.0}
+  Breakfast: {'name': 'Bulking Power Plate', 'diet': 'bulking', 'ingredients': {'chicken': 300, 'pasta': 250, 'cheese': 100, 'broccoli': 150}, 'calories': 950, 'protein_g': 85.0, 'carbs_g': 90.0, 'fat_g': 35.0}
+  Lunch: {'name': 'Bulking Power Burrito', 'diet': 'bulking', 'ingredients': {'tortilla': 200, 'chicken': 300, 'rice': 200, 'beans': 150, 'cheese': 150, 'avocado': 100}, 'calories': 1150, 'protein_g': 85.0, 'carbs_g': 95.0, 'fat_g': 50.0}
+  Dinner: {'name': 'Bulking Breakfast', 'diet': 'bulking', 'ingredients': {'eggs': 200, 'bread': 200, 'cheese': 100, 'milk': 200}, 'calories': 850, 'protein_g': 55.0, 'carbs_g': 65.0, 'fat_g': 45.0}
 Tuesday:
-  Breakfast: {'name': 'Tempeh Stir-Fry', 'diet': 'vegan', 'ingredients': {'tempeh': 200, 'broccoli': 150, 'brown_rice': 150, 'tofu': 100}, 'calories': 480, 'protein_g': 32.0, 'carbs_g': 55.0, 'fat_g': 20.0}
-  Lunch: {'name': 'Vegan Mushroom Walnut Meatballs', 'diet': 'vegan', 'ingredients': {'mushrooms': 200, 'walnuts': 100, 'breadcrumbs': 50, 'nutritional_yeast': 20, 'garlic': 15}, 'calories': 420, 'protein_g': 15.0, 'carbs_g': 35.0, 'fat_g': 28.0}
-  Dinner: {'name': 'Vegan Tofu Scramble', 'diet': 'vegan', 'ingredients': {'tofu': 250, 'tomatoes': 100, 'spinach': 100, 'onions': 50}, 'calories': 300, 'protein_g': 25.0, 'carbs_g': 20.0, 'fat_g': 18.0}
+  Breakfast: {'name': 'Muscle Builder Stir-Fry', 'diet': 'bulking', 'ingredients': {'beef': 350, 'rice': 250, 'mixed_vegetables': 200, 'nuts': 50}, 'calories': 880, 'protein_g': 65.0, 'carbs_g': 75.0, 'fat_g': 42.0}
+  Lunch: {'name': 'Bulking Mass Gainer Shake', 'diet': 'bulking', 'ingredients': {'protein_powder': 80, 'oats': 200, 'banana': 200, 'peanut_butter': 100, 'whole_milk': 500, 'honey': 50}, 'calories': 1300, 'protein_g': 75.0, 'carbs_g': 140.0, 'fat_g': 50.0}
+  Dinner: {'name': 'Bulking Loaded Sweet Potato', 'diet': 'bulking', 'ingredients': {'sweet_potato': 400, 'ground_beef': 300, 'cheese': 150, 'sour_cream': 100, 'bacon': 100}, 'calories': 1150, 'protein_g': 70.0, 'carbs_g': 85.0, 'fat_g': 65.0}
 Wednesday:
-  Breakfast: {'name': 'High Protein Tofu Bowl', 'diet': 'vegan', 'ingredients': {'tofu': 300, 'broccoli': 150, 'soy_sauce': 30, 'garlic': 10}, 'calories': 400, 'protein_g': 35.0, 'carbs_g': 25.0, 'fat_g': 22.0}
-  Lunch: {'name': 'Vegan Buddha Bowl', 'diet': 'vegan', 'ingredients': {'tofu': 200, 'broccoli': 150, 'spinach': 100, 'soy_sauce': 20}, 'calories': 350, 'protein_g': 25.0, 'carbs_g': 30.0, 'fat_g': 18.0}
-  Dinner: {'name': 'Vegan Sweet Potato Mac', 'diet': 'vegan', 'ingredients': {'pasta': 200, 'sweet_potatoes': 250, 'cashews': 100, 'nutritional_yeast': 30, 'garlic': 15}, 'calories': 520, 'protein_g': 16.0, 'carbs_g': 85.0, 'fat_g': 15.0}
+  Breakfast: {'name': 'Protein Pancake Stack', 'diet': 'bulking', 'ingredients': {'protein_powder': 60, 'oats': 150, 'eggs': 200, 'banana': 100, 'maple_syrup': 30}, 'calories': 720, 'protein_g': 45.0, 'carbs_g': 85.0, 'fat_g': 28.0}
+  Lunch: {'name': 'Bulking Muscle Wrap', 'diet': 'bulking', 'ingredients': {'tortillas': 200, 'turkey': 300, 'cheese': 150, 'avocado': 150, 'mayo': 50, 'vegetables': 100}, 'calories': 950, 'protein_g': 75.0, 'carbs_g': 65.0, 'fat_g': 55.0}
+  Dinner: {'name': 'Bulking Protein Pancake Stack', 'diet': 'bulking', 'ingredients': {'protein_powder': 60, 'oats': 200, 'eggs': 200, 'banana': 150, 'maple_syrup': 50, 'butter': 30}, 'calories': 880, 'protein_g': 65.0, 'carbs_g': 95.0, 'fat_g': 35.0}
 Thursday:
-  Breakfast: {'name': 'Vegan Chickpea Tuna Salad', 'diet': 'vegan', 'ingredients': {'chickpeas': 250, 'celery': 50, 'nori': 10, 'vegan_mayo': 50, 'onions': 30, 'pickles': 30}, 'calories': 380, 'protein_g': 15.0, 'carbs_g': 45.0, 'fat_g': 20.0}
-  Lunch: {'name': 'Vegan Tempeh Stir-Fry', 'diet': 'vegan', 'ingredients': {'tempeh': 200, 'broccoli': 150, 'carrots': 100, 'snap_peas': 100, 'soy_sauce': 30}, 'calories': 420, 'protein_g': 25.0, 'carbs_g': 40.0, 'fat_g': 18.0}
-  Dinner: {'name': 'Vegan Quinoa Stuffed Peppers', 'diet': 'vegan', 'ingredients': {'bell_peppers': 300, 'quinoa': 150, 'black_beans': 100, 'corn': 50, 'nutritional_yeast': 20}, 'calories': 380, 'protein_g': 16.0, 'carbs_g': 60.0, 'fat_g': 12.0}
+  Breakfast: {'name': 'Bulking Beef Rice Bowl', 'diet': 'bulking', 'ingredients': {'beef': 400, 'rice': 300, 'eggs': 200, 'vegetables': 200, 'teriyaki': 100}, 'calories': 1100, 'protein_g': 85.0, 'carbs_g': 110.0, 'fat_g': 40.0}
+  Lunch: {'name': 'Bulking Protein Pasta', 'diet': 'bulking', 'ingredients': {'pasta': 300, 'chicken': 250, 'cheese': 150, 'tomatoes': 100}, 'calories': 1100, 'protein_g': 90.0, 'carbs_g': 110.0, 'fat_g': 40.0}
+  Dinner: {'name': 'Bulking Protein Granola', 'diet': 'bulking', 'ingredients': {'oats': 300, 'nuts': 150, 'protein_powder': 50, 'honey': 100, 'dried_fruits': 100}, 'calories': 900, 'protein_g': 45.0, 'carbs_g': 110.0, 'fat_g': 40.0}
 Friday:
-  Breakfast: {'name': 'Lentil Power Bowl', 'diet': 'vegan', 'ingredients': {'lentils': 200, 'sweet_potato': 150, 'kale': 100, 'tahini': 30}, 'calories': 450, 'protein_g': 26.0, 'carbs_g': 65.0, 'fat_g': 15.0}
-  Lunch: {'name': 'Quinoa Buddha Bowl', 'diet': 'vegan', 'ingredients': {'quinoa': 200, 'chickpeas': 150, 'avocado': 100, 'vegetables': 200}, 'calories': 520, 'protein_g': 22.0, 'carbs_g': 65.0, 'fat_g': 24.0}
-  Dinner: {'name': 'Vegan Rainbow Buddha Bowl', 'diet': 'vegan', 'ingredients': {'quinoa': 200, 'sweet_potatoes': 150, 'chickpeas': 150, 'kale': 100, 'avocado': 100, 'tahini': 30}, 'calories': 520, 'protein_g': 18.0, 'carbs_g': 70.0, 'fat_g': 22.0}
+  Breakfast: {'name': 'Bulking Power Pizza', 'diet': 'bulking', 'ingredients': {'pizza_dough': 300, 'chicken': 250, 'cheese': 200, 'olive_oil': 50, 'vegetables': 200}, 'calories': 1250, 'protein_g': 80.0, 'carbs_g': 120.0, 'fat_g': 55.0}
+  Lunch: {'name': 'Monster Mass Gainer', 'diet': 'bulking', 'ingredients': {'protein_powder': 60, 'oats': 200, 'peanut_butter': 50, 'banana': 200, 'milk': 400}, 'calories': 1200, 'protein_g': 70.0, 'carbs_g': 120.0, 'fat_g': 45.0}
+  Dinner: {'name': 'High Protein Breakfast Bowl', 'diet': 'bulking', 'ingredients': {'eggs': 300, 'oats': 100, 'protein_powder': 30, 'banana': 100, 'milk': 200}, 'calories': 750, 'protein_g': 45.0, 'carbs_g': 65.0, 'fat_g': 35.0}
 Saturday:
-  Breakfast: {'name': 'Chickpea Curry Bowl', 'diet': 'vegan', 'ingredients': {'chickpeas': 250, 'coconut_milk': 100, 'vegetables': 200, 'rice': 150}, 'calories': 580, 'protein_g': 24.0, 'carbs_g': 75.0, 'fat_g': 22.0}
-  Lunch: {'name': 'Vegan Protein Smoothie', 'diet': 'vegan', 'ingredients': {'vegan_protein': 40, 'banana': 100, 'almond_milk': 250, 'spinach': 50}, 'calories': 320, 'protein_g': 28.0, 'carbs_g': 42.0, 'fat_g': 8.0}
-  Dinner: {'name': 'Vegan Jackfruit Tacos', 'diet': 'vegan', 'ingredients': {'jackfruit': 250, 'tortillas': 150, 'avocado': 100, 'salsa': 50, 'lettuce': 50, 'lime': 30}, 'calories': 450, 'protein_g': 12.0, 'carbs_g': 65.0, 'fat_g': 18.0}
+  Breakfast: {'name': 'Bulking Tuna Pasta', 'diet': 'bulking', 'ingredients': {'pasta': 300, 'tuna': 300, 'cheese': 150, 'olive_oil': 50, 'cream': 100}, 'calories': 1050, 'protein_g': 80.0, 'carbs_g': 100.0, 'fat_g': 45.0}
+  Lunch: {'name': "Power Lifter's Lunch", 'diet': 'bulking', 'ingredients': {'chicken': 400, 'rice': 300, 'avocado': 100, 'olive_oil': 30}, 'calories': 950, 'protein_g': 75.0, 'carbs_g': 80.0, 'fat_g': 40.0}
+  Dinner: {'name': 'Bulking Triple Protein Bowl', 'diet': 'bulking', 'ingredients': {'chicken': 300, 'quinoa': 200, 'black_beans': 150, 'eggs': 200, 'cheese': 100, 'avocado': 100}, 'calories': 1200, 'protein_g': 85.0, 'carbs_g': 95.0, 'fat_g': 55.0}
 Sunday:
-  Breakfast: {'name': 'Vegan Black Bean Brownies', 'diet': 'vegan', 'ingredients': {'black_beans': 200, 'cocoa': 50, 'maple_syrup': 100, 'oat_flour': 100, 'walnuts': 50}, 'calories': 840, 'protein_g': 24.0, 'carbs_g': 130.0, 'fat_g': 36.0}
-  Lunch: {'name': 'Vegan Cauliflower Buffalo Wings', 'diet': 'vegan', 'ingredients': {'cauliflower': 300, 'flour': 100, 'plant_milk': 100, 'hot_sauce': 50, 'garlic': 15}, 'calories': 380, 'protein_g': 12.0, 'carbs_g': 55.0, 'fat_g': 15.0}
-  Dinner: {'name': "Vegan Lentil Shepherd's Pie", 'diet': 'vegan', 'ingredients': {'lentils': 250, 'potatoes': 300, 'carrots': 100, 'peas': 100, 'onions': 50, 'plant_milk': 100}, 'calories': 480, 'protein_g': 20.0, 'carbs_g': 75.0, 'fat_g': 10.0}
+  Breakfast: {'name': 'Bulking Power Plate', 'diet': 'bulking', 'ingredients': {'chicken': 300, 'pasta': 250, 'cheese': 100, 'broccoli': 150}, 'calories': 950, 'protein_g': 85.0, 'carbs_g': 90.0, 'fat_g': 35.0}
+  Lunch: {'name': 'Bulking Power Burrito', 'diet': 'bulking', 'ingredients': {'tortilla': 200, 'chicken': 300, 'rice': 200, 'beans': 150, 'cheese': 150, 'avocado': 100}, 'calories': 1150, 'protein_g': 85.0, 'carbs_g': 95.0, 'fat_g': 50.0}
+  Dinner: {'name': 'Bulking Breakfast', 'diet': 'bulking', 'ingredients': {'eggs': 200, 'bread': 200, 'cheese': 100, 'milk': 200}, 'calories': 850, 'protein_g': 55.0, 'carbs_g': 65.0, 'fat_g': 45.0}

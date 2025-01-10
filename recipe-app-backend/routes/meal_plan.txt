@@ -1,0 +1,28 @@
+Monday:
+  Breakfast: {'name': 'Keto Salmon Plate', 'diet': 'keto', 'ingredients': {'salmon': 250, 'spinach': 150, 'cheese': 75, 'lemon': 30}, 'calories': 600, 'protein_g': 55.0, 'carbs_g': 6.0, 'fat_g': 42.0}
+  Lunch: {'name': 'Keto Buffalo Chicken Dip', 'diet': 'keto', 'ingredients': {'chicken': 250, 'cream_cheese': 200, 'buffalo_sauce': 50, 'cheddar': 100, 'ranch': 50}, 'calories': 650, 'protein_g': 45.0, 'carbs_g': 4.0, 'fat_g': 52.0}
+  Dinner: {'name': 'Keto Chicken Alfredo', 'diet': 'keto', 'ingredients': {'chicken': 250, 'cream': 150, 'cheese': 100, 'zucchini': 150}, 'calories': 620, 'protein_g': 48.0, 'carbs_g': 10.0, 'fat_g': 46.0}
+Tuesday:
+  Breakfast: {'name': 'Keto Steak Plate', 'diet': 'keto', 'ingredients': {'steak': 300, 'butter': 30, 'asparagus': 100, 'cheese': 50}, 'calories': 680, 'protein_g': 45.0, 'carbs_g': 6.0, 'fat_g': 52.0}
+  Lunch: {'name': 'Keto Salmon Cakes', 'diet': 'keto', 'ingredients': {'salmon': 250, 'eggs': 100, 'almond_flour': 50, 'mayo': 30, 'lemon': 20}, 'calories': 580, 'protein_g': 45.0, 'carbs_g': 4.0, 'fat_g': 42.0}
+  Dinner: {'name': 'Keto Bacon Wrapped Asparagus', 'diet': 'keto', 'ingredients': {'asparagus': 200, 'bacon': 150, 'garlic': 15, 'olive_oil': 30}, 'calories': 480, 'protein_g': 28.0, 'carbs_g': 10.0, 'fat_g': 40.0}
+Wednesday:
+  Breakfast: {'name': 'Cheesy Cauliflower Bake', 'diet': 'keto', 'ingredients': {'cauliflower': 200, 'cheese': 150, 'cream': 100, 'bacon': 50}, 'calories': 1100, 'protein_g': 56.0, 'carbs_g': 24.0, 'fat_g': 90.0}
+  Lunch: {'name': 'Keto Philly Cheesesteak Bowl', 'diet': 'keto', 'ingredients': {'beef': 300, 'bell_peppers': 100, 'onions': 50, 'provolone': 100, 'butter': 30}, 'calories': 680, 'protein_g': 45.0, 'carbs_g': 8.0, 'fat_g': 54.0}
+  Dinner: {'name': 'Keto Buffalo Cauliflower', 'diet': 'keto', 'ingredients': {'cauliflower': 300, 'butter': 50, 'buffalo_sauce': 50, 'blue_cheese': 100}, 'calories': 450, 'protein_g': 15.0, 'carbs_g': 10.0, 'fat_g': 40.0}
+Thursday:
+  Breakfast: {'name': 'Keto Chicken Supreme', 'diet': 'keto', 'ingredients': {'chicken': 250, 'cheese': 100, 'spinach': 100, 'garlic': 15}, 'calories': 650, 'protein_g': 75.0, 'carbs_g': 8.0, 'fat_g': 45.0}
+  Lunch: {'name': 'Keto Stuffed Mushroom Caps', 'diet': 'keto', 'ingredients': {'mushrooms': 300, 'sausage': 200, 'cream_cheese': 100, 'parmesan': 50, 'garlic': 15}, 'calories': 550, 'protein_g': 35.0, 'carbs_g': 8.0, 'fat_g': 45.0}
+  Dinner: {'name': 'Keto Tuna Avocado Boats', 'diet': 'keto', 'ingredients': {'tuna': 200, 'avocado': 200, 'mayo': 50, 'celery': 30, 'lemon': 20}, 'calories': 520, 'protein_g': 35.0, 'carbs_g': 6.0, 'fat_g': 42.0}
+Friday:
+  Breakfast: {'name': 'Keto Breakfast Casserole', 'diet': 'keto', 'ingredients': {'eggs': 250, 'sausage': 150, 'cheese': 100, 'spinach': 50}, 'calories': 580, 'protein_g': 38.0, 'carbs_g': 6.0, 'fat_g': 48.0}
+  Lunch: {'name': 'Keto Chicken Alfredo Spaghetti Squash', 'diet': 'keto', 'ingredients': {'spaghetti_squash': 300, 'chicken': 250, 'cream': 150, 'parmesan': 100}, 'calories': 580, 'protein_g': 48.0, 'carbs_g': 12.0, 'fat_g': 40.0}
+  Dinner: {'name': 'Keto Bacon Avocado Bowl', 'diet': 'keto', 'ingredients': {'bacon': 150, 'avocado': 200, 'eggs': 200, 'cheese': 50}, 'calories': 750, 'protein_g': 35.0, 'carbs_g': 8.0, 'fat_g': 68.0}
+Saturday:
+  Breakfast: {'name': 'Keto Power Breakfast', 'diet': 'keto', 'ingredients': {'eggs': 200, 'cheese': 100, 'spinach': 100, 'milk': 50}, 'calories': 550, 'protein_g': 45.0, 'carbs_g': 5.0, 'fat_g': 42.0}
+  Lunch: {'name': 'Keto Chicken Cordon Bleu', 'diet': 'keto', 'ingredients': {'chicken': 300, 'ham': 100, 'swiss_cheese': 100, 'cream': 50, 'butter': 30}, 'calories': 700, 'protein_g': 65.0, 'carbs_g': 3.0, 'fat_g': 48.0}
+  Dinner: {'name': 'Keto Zucchini Lasagna Roll-Ups', 'diet': 'keto', 'ingredients': {'zucchini': 300, 'ricotta': 200, 'ground_beef': 200, 'marinara': 100}, 'calories': 620, 'protein_g': 42.0, 'carbs_g': 12.0, 'fat_g': 46.0}
+Sunday:
+  Breakfast: {'name': 'Keto Salmon Plate', 'diet': 'keto', 'ingredients': {'salmon': 250, 'spinach': 150, 'cheese': 75, 'lemon': 30}, 'calories': 600, 'protein_g': 55.0, 'carbs_g': 6.0, 'fat_g': 42.0}
+  Lunch: {'name': 'Keto Buffalo Chicken Dip', 'diet': 'keto', 'ingredients': {'chicken': 250, 'cream_cheese': 200, 'buffalo_sauce': 50, 'cheddar': 100, 'ranch': 50}, 'calories': 650, 'protein_g': 45.0, 'carbs_g': 4.0, 'fat_g': 52.0}
+  Dinner: {'name': 'Keto Chicken Alfredo', 'diet': 'keto', 'ingredients': {'chicken': 250, 'cream': 150, 'cheese': 100, 'zucchini': 150}, 'calories': 620, 'protein_g': 48.0, 'carbs_g': 10.0, 'fat_g': 46.0}
