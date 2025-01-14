@@ -3,7 +3,6 @@
 import { Recipe } from '@/types/api';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Clock, Users, Flame } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface RecipeCardProps {
@@ -22,12 +21,9 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
                 <CardHeader>
                     <div className="flex justify-between items-start">
                         <CardTitle className="text-xl">{recipe.name}</CardTitle>
-                        <Badge variant={recipe.difficulty === 'easy' ? 'secondary' : 'outline'}>
-                            {recipe.difficulty}
-                        </Badge>
                     </div>
                     <div className="flex gap-2 flex-wrap">
-                        {recipe.tags?.map((tag) => (
+                        {recipe.tags?.map((tag: string) => (
                             <Badge key={tag} variant="outline" className="text-xs">
                                 {tag}
                             </Badge>
@@ -35,24 +31,9 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
                     </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                    {recipe.description && (
-                        <p className="text-sm text-muted-foreground line-clamp-2">
-                            {recipe.description}
-                        </p>
-                    )}
-
                     <div className="grid grid-cols-3 gap-4">
                         <div className="flex items-center gap-2">
-                            <Clock className="h-4 w-4 text-muted-foreground" />
-                            <span className="text-sm">{recipe.preparationTime + recipe.cookingTime}m</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <Users className="h-4 w-4 text-muted-foreground" />
-                            <span className="text-sm">{recipe.servings}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <Flame className="h-4 w-4 text-muted-foreground" />
-                            <span className="text-sm">{recipe.calories}</span>
+                            <Badge variant="outline">{recipe.diet}</Badge>
                         </div>
                     </div>
 

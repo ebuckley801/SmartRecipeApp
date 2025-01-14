@@ -105,13 +105,9 @@ export async function getUserPreferences(): Promise<UserPreferences> {
     return fetchApi<UserPreferences>('/preferences');
 }
 
-export async function updateUserPreferences(preferences: {
-    name: string;
-    dietaryGoal: string;
-    nutritionalGoals: any;
-}): Promise<{ message: string }> {
+export async function updateUserPreferences(preferences: UserPreferences): Promise<{ message: string }> {
     return fetchApi<{ message: string }>('/preferences', {
-        method: 'POST',
+        method: 'PUT',
         body: JSON.stringify(preferences),
     });
 }

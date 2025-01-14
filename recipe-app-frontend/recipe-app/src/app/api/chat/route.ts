@@ -56,9 +56,7 @@ export async function POST(req: NextRequest) {
         await addMessageToConversation(
             conversationId,
             data.reply,
-            "assistant",
-            data.reasoning,
-            data.chart,
+            "assistant"
         );
 
         return NextResponse.json(data);

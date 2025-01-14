@@ -14,6 +14,7 @@ export interface Recipe {
     fat_g: number;
     ingredients: Record<string, number>;
     isDoublePortion?: boolean;
+    tags?: string[];
 }
 
 export interface NutritionalValue {

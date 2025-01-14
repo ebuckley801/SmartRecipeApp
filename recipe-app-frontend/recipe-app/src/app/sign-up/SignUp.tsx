@@ -73,10 +73,8 @@ export default function SignUp() {
             });
 
             if (!response.ok) {
-                const errorData = await response.json();
                 toast.error('The email address is already in use.');
             } else {
-                const data = await response.json();
                 toast.success('Sign up successful!');
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 router.push('/');

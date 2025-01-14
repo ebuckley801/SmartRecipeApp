@@ -39,7 +39,7 @@ export function MealPlanDisplay({ mealPlan }: MealPlanDisplayProps) {
 
         Object.values(mealPlan.meal_plan).forEach(day => {
             let hasDataForDay = false;
-            let dailyTotals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
+            const dailyTotals = { calories: 0, protein: 0, carbs: 0, fat: 0 };
 
             Object.values(day).forEach(meal => {
                 if (typeof meal !== 'string' && meal) {
@@ -117,7 +117,7 @@ export function MealPlanDisplay({ mealPlan }: MealPlanDisplayProps) {
                             transition={{ duration: 0.3 }}
                             className="grid gap-6 md:grid-cols-3"
                         >
-                            {Object.entries(mealPlan.meal_plan[day]).map(([mealType, meal]) => (
+                            {Object.entries(mealPlan.meal_plan[day as keyof typeof mealPlan.meal_plan]).map(([mealType, meal]) => (
                                 <MealCard
                                     key={mealType}
                                     meal={meal}

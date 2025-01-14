@@ -1,4 +1,4 @@
-import prisma, { PrismaJsonValue } from "./prisma"; // Import both prisma and the type
+import prisma from "./prisma"; // Import both prisma and the type
 import { authOptions } from "./authOptions";
 import { getServerSession } from "next-auth";
 import { compare } from "bcrypt";

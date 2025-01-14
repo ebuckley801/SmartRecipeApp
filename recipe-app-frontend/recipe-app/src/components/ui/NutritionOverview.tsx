@@ -38,34 +38,6 @@ const chartConfig = {
     },
 } satisfies ChartConfig
 
-
-const CustomTooltip = ({ active, payload, label }: any) => {
-    if (active && payload && payload.length) {
-        return (
-            <div className="rounded-lg border bg-background p-2 shadow-sm">
-                <div className="grid gap-2">
-                    <div className="font-medium">{payload[0]?.payload?.fullName}</div>
-                    <div className="grid grid-cols-2 gap-2">
-                        {payload.map((entry: any) => (
-                            <div key={entry.dataKey} className="flex items-center gap-2">
-                                <div
-                                    className="h-2 w-2 rounded-full"
-                                    style={{ backgroundColor: entry.color }}
-                                />
-                                <span className="font-medium">
-                  {entry.name}: {entry.value}g
-                </span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        )
-    }
-
-    return null
-}
-
 export function NutritionOverview({ recipes }: NutritionOverviewProps) {
     // Transform recipe data into chart format
     const chartData = recipes.slice(0, 6).map(recipe => ({
@@ -86,7 +58,6 @@ export function NutritionOverview({ recipes }: NutritionOverviewProps) {
     const numRecipes = recipes.length;
     const avgProtein = Math.round(averages.protein / numRecipes);
     const avgCarbs = Math.round(averages.carbs / numRecipes);
-    const avgFat = Math.round(averages.fat / numRecipes);
 
     // Calculate trends (comparing latest to average)
     const latestRecipe = recipes[0];

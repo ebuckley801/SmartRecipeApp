@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import { useRouter } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button, ButtonProps } from "@/components/ui/button"
 import {
@@ -16,27 +15,18 @@ import {
 } from "@/components/ui/command"
 
 import {
-    Calculator,
-    CoinsIcon,
-    LineChartIcon,
+    MessageCircle,
     Settings,
     User,
-    MessageCircle
 } from "lucide-react"
-import { PlusSmallIcon } from "@heroicons/react/20/solid"
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import {Chat} from "./ChatAgent"
 
 export function CommandMenu(props: React.JSX.IntrinsicAttributes & ButtonProps & React.RefAttributes<HTMLButtonElement>) {
-    const router = useRouter();
-    // const { setTheme } = useTheme();
     const [open, setOpen] = useState(false);
-    const [chatOpen, setChatOpen] = useState(false);
-
 
     useEffect(() => {
-        const handleKeyDown = (event: any) => {
+        const handleKeyDown = (event: KeyboardEvent) => {
             if (event.defaultPrevented) {
                 return; // Skip if the default action has been prevented
             }
@@ -69,13 +59,6 @@ export function CommandMenu(props: React.JSX.IntrinsicAttributes & ButtonProps &
             document.removeEventListener("keydown", handleKeyDown);
         };
     }, []); // Empty dependency array to ensure setup and cleanup run only once
-
-    const runCommand = (command: any) => {
-        setOpen(false);
-        command();
-    };
-
-
 
     return (
         <>

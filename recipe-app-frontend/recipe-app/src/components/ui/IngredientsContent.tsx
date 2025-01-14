@@ -69,7 +69,7 @@ export function IngredientsContent({ ingredients }: IngredientsContentProps) {
                             className="text-center py-12"
                         >
                             <p className="text-lg font-medium text-muted-foreground">
-                                No ingredients found matching "{searchQuery}"
+                                No ingredients found matching &ldquo;{searchQuery}&rdquo;
                             </p>
                             <button
                                 onClick={() => setSearchQuery('')}

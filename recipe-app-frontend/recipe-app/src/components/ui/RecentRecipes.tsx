@@ -9,7 +9,6 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, Users } from "lucide-react";
 import Link from "next/link";
 
 interface RecentRecipesProps {
@@ -17,7 +16,7 @@ interface RecentRecipesProps {
 }
 
 export function RecentRecipes({ recipes }: RecentRecipesProps) {
-    const recentRecipes = recipes.slice(0, 5); // Show only 5 recent recipes
+    const recentRecipes = recipes.slice(0, 5);
 
     return (
         <Card>
@@ -37,13 +36,7 @@ export function RecentRecipes({ recipes }: RecentRecipesProps) {
                                 <div className="flex-1 space-y-1">
                                     <p className="font-medium leading-none">{recipe.name}</p>
                                     <div className="flex items-center pt-2 text-sm text-muted-foreground">
-                                        <Clock className="mr-1 h-4 w-4" />
-                                        {recipe.preparationTime + recipe.cookingTime}m
-                                        <Users className="ml-3 mr-1 h-4 w-4" />
-                                        {recipe.servings}
-                                        <div className="ml-3">
-                                            <Badge variant="outline">{recipe.diet}</Badge>
-                                        </div>
+                                        <Badge variant="outline">{recipe.diet}</Badge>
                                     </div>
                                 </div>
                             </div>

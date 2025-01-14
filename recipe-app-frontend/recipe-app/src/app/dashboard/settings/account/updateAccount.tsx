@@ -69,9 +69,7 @@ export default function UpdateAccount() {
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
         toast.error('The email address is already in use.');
-
       } else {
         const data = await response.json();
         console.log(data);

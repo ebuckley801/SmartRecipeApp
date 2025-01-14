@@ -5,7 +5,7 @@ import { UserNav } from "@/app/dashboard/components/nav/ProfileAvatar";
 import { Suspense } from 'react';
 import type {Metadata} from "next";
 import { ErrorBoundary} from "@/components/ui/ErrorBoundary";
-
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
     title: "Meal Plan",
     description: "Your meal plan.",

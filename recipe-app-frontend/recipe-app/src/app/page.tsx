@@ -6,6 +6,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   const session = getServerSession(authOptions);

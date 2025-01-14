@@ -5,6 +5,8 @@ import { Nav } from "@/app/dashboard/components/nav/Nav";
 import { UserNav } from "@/app/dashboard/components/nav/ProfileAvatar";
 import { IngredientsContent } from '@/components/ui/IngredientsContent';
 import type {Metadata} from "next";
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
     title: "Ingredients",
     description: "Ingredients for the recipe app.",

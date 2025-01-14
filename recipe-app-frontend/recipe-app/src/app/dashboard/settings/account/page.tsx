@@ -3,6 +3,8 @@ import AccountForm from "./account-form"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import UpdateAccount from "./updateAccount"
 
+export const dynamic = 'force-dynamic';
+
 export default function SettingsAccountPage() {
   return (
     <div className="space-y-6">
