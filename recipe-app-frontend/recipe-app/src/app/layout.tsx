@@ -1,6 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
+import "@/app/globals.css"
 
 export default function RootLayout({
   children,
@@ -9,7 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <head>
+        <title>Recipe App</title>
+      </head>
+      <body className="min-h-screen bg-background antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

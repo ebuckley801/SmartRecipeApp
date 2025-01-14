@@ -6,7 +6,12 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import { Metadata } from "next";
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = {
+    title: "Home",
+    description: "Home page for the recipe app.",
+};
 
 export default async function Home() {
   const session = getServerSession(authOptions);
